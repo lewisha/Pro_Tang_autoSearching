@@ -1,0 +1,17 @@
+ul {
+  padding: 0px;
+  margin: 0px;
+  width: 151px;
+  border: 1px solid black;
+  border-top: none;
+}
+
+li {
+  list-style-type: none;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+li:last-child {
+  border-bottom: none;
+}
